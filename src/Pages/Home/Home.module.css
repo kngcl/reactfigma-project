@@ -1,10 +1,10 @@
 .hero {
-  margin-top: 150px;
+  margin-top: 125px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../../Images/lake.jpg");
   background-size: cover;
   background-position: center;
-  height: 720px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,8 +16,8 @@
   font-family: "Lora";
   font-style: normal;
   font-weight: 700;
-  font-size: 75px;
-  font-weight: bolder;
+  font-size: 60px;
+  font-weight: bold;
   line-height: 120%;
   letter-spacing: 0.003em;
   color: #ffffff;
@@ -29,7 +29,7 @@
   font-family: "Mulish";
   font-style: normal;
   font-weight: lighter;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 125%;
   letter-spacing: 0.005em;
   color: #ffffff;

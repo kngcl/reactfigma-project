@@ -10,8 +10,8 @@ function Stickybar() {
     <div  className={Sticky.stick}>
       <div className={Sticky.stickContent}>
         <div className={Sticky.left} >
-        <p> <img src={vec3} alt="vector1" />  +250 784 688 641</p>
-        <p> <img src={vec4} alt="vector2" />   bbonteemma@gmail.com</p>
+        <span><img src={vec3} alt="vector1" /></span> <span> +250 784 688 641</span>
+         <span><img src={vec4} alt="vector2" /></span><span>bbonteemma@gmail.com</span>
         </div>
         <div className= {Sticky.right}>
           <p><img src={vec5} alt="vector3" /></p>
