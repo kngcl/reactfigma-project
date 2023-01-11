@@ -1,0 +1,57 @@
+.menuContent {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 10vw;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.menuChild {
+  height: 24px;
+  left: 187px;
+  top: 86px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 300%;
+  letter-spacing: 0.005em;
+  color: #304f47;
+  text-decoration: none;
+  transition: border-bottom  0.5s;
+  font-weight: 400;
+}
+
+.menuChild:hover {
+    font-size: larger;
+    width: 44px;
+    left: 120px;
+    top: 120px;
+   margin-top: 12px;
+    border-bottom: 3px solid #304F47;
+    
+}
+
+.btn {
+  margin-top: 12px;
+  line-height: 300%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 24px;
+  width: 160px;
+  margin-left: 20vw;
+  background: #c7923e;
+  border: 1px solid #304f47;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 12px;
+}
