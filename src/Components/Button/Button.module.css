@@ -1,0 +1,14 @@
+.btn_search {
+    box-sizing: border-box;
+    padding: 11px 24px;
+    gap: 10px;
+    width: 160px;
+    height: 50px;
+    background: #c7923e;
+    border: 1px solid #304f47;
+    border-radius: 8px;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #fff;
+  }

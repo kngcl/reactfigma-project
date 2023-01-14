@@ -1,0 +1,62 @@
+.Desti {
+  max-width: 1450px;
+  margin: auto;
+}
+
+.sites {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 1px;
+  margin-bottom: -160px;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+}
+
+.head {
+  width: 322px;
+  height: 29px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #11142d;
+}
+
+.des {
+  width: 278px;
+  height: 60px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0.005em;
+  color: #9a9ab0;
+}
+
+.up {
+  margin-bottom: 34px;
+}
+
+.up {
+  width: 350px;
+  height: 584px;
+}
+
+.text {
+  margin: 14px;
+}
+
+.forwarders {
+ display: flex;
+ width: 93%;
+ justify-content: flex-end;
+ gap: 22px;
+ margin-bottom: 60px;
+}

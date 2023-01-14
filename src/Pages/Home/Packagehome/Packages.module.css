@@ -1,0 +1,35 @@
+.Title {
+  margin-top: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Pack__Title {
+  max-width: 608px;
+  margin: auto;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #c7923e;
+  margin-bottom: -12.5px;
+}
+
+.Pack__Subtitle {
+ max-width: 608px;
+  margin: auto;
+  text-align: center;
+  height: 116px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  color: #000;
+  margin-bottom: 93px;
+}

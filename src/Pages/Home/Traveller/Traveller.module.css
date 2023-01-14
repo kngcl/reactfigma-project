@@ -1,0 +1,78 @@
+.sites {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.image {
+  width: 110px;
+  height: 110px;
+ 
+}
+
+.head {
+  width: 202px;
+  height: 19px;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #000000;
+}
+
+.des {
+  width: 249px;
+  height: 100px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: justify;
+  letter-spacing: 0.005em;
+  color: #9a9ab0;
+}
+
+.up {
+  margin-bottom: 34px;
+}
+
+.up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 300px;
+  height: 380px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image2 {
+  box-sizing: border-box;
+position: absolute;
+margin-left: -115px;
+margin-top: -5px;
+  width: 120px;
+  height: 120px;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .sites__Content {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

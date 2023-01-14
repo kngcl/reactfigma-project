@@ -1,27 +1,33 @@
+.Navbar__Menu {
+  max-width: 1400px;
+  margin: auto;
+}
+
 .menuContent {
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-left: 10vw;
-  gap: 30px;
-  margin-top: 15px;
+   align-items: center;
+  justify-content: space-between;
+  width: 97%;
 }
 
 .menu {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   flex-wrap: wrap;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
 }
 
 .menuChild {
   height: 24px;
-  left: 187px;
-  top: 86px;
   font-family: "Mulish";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 300%;
   letter-spacing: 0.005em;
   color: #304f47;
@@ -37,20 +43,4 @@
   top: 120px;
   margin-top: 12px;
   border-bottom: 3px solid #304f47;
-}
-
-.btn {
-  margin-top: 12px;
-  line-height: 300%;
-  box-sizing: border-box;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 24px;
-  width: 160px;
-  margin-left: 20vw;
-  background: #c7923e;
-  border: 1px solid #304f47;
-  border-radius: 8px;
-  color: #ffffff;
-  font-size: 12px;
 }
