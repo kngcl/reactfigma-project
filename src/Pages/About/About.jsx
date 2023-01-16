@@ -1,22 +1,21 @@
 import React from "react";
-/* import Stickybar from "../../Components/Stickybar/Stickybar";
-import Navbar from "../../Components/Navbar/Navbar"; */
-import {Link, useNavigate } from "react-router-dom";
-import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 import Stickybar from "../../Components/Stickybar/Stickybar";
+import AboutContent from "./AboutContent";
+import Hero2 from "./Hero2/Hero2"
 function About() {
- const navigate = useNavigate()
+  /*  const navigate = useNavigate()
  const goAfter = () => {
     setTimeout(() => {
         navigate('/')
     },5000)
- }
+ } */
   return (
     <div>
-        <Stickybar />
-        <Navbar/>
-        <Link to = "/">back</Link>
-      <button type="" onClick={goAfter}></button>
+      <Stickybar />
+      <Hero2 />
+      <AboutContent />
+      <Footer/>
     </div>
   );
 }

@@ -41,6 +41,7 @@ function Home() {
                 className={Styles.hero__search_icon}
               />
             </div>
+            <div className={Styles.bar_para}>
             <div className={Styles.guest__content}>
               <label for="" className={Styles.guest}>
                 Guest
@@ -50,7 +51,7 @@ function Home() {
                 <img src={Arrow} alt="" className={Styles.hero__arrow} />
               </p>
             </div>
-            <div className="time">
+            <div className={Styles.guest__content}>
               <label for="" className={Styles.Date}>
                 Date
               </label>
@@ -59,7 +60,7 @@ function Home() {
                 <img src={Arrow} alt="" className={Styles.hero__arrow} />
               </p>
             </div>
-            <div className="Package">
+            <div className={Styles.guest__content}>
               <label for="" className={Styles.Package}>
                 Package
               </label>
@@ -67,6 +68,8 @@ function Home() {
                 All <img src={Arrow} alt="" className={Styles.hero__arrow} />
               </p>
             </div>
+            </div>
+            
             <Button>get out</Button>
           </div>
         </div>

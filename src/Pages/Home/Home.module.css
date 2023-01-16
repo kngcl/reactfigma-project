@@ -1,5 +1,4 @@
 .hero {
-  margin-top: 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../Images/lake.jpg");
   background-size: cover;
@@ -8,7 +7,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+    position: relative;
 }
 
 .hero_Title {
@@ -36,24 +36,27 @@
 }
 
 .search_Content {
-  position: absolute;
-  right: 250px;
-  top: 715px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 1060px;
-  padding: 5px;
-  margin: auto;
-  height: 88px;
+  width: 65%;
+  min-height: 88px;
   background: #304f47;
   border-radius: 8px;
-  gap: 60px;
+  gap: 44px;
+  left: 199px;
+  bottom: -31px;
+  position: absolute;
+}
+
+.guest__content {
+ font-size: 1.3vw;
 }
 
 .inputcontent {
   box-sizing: border-box;
-  width: 340px;
+  width: 16vw;
   height: 56px;
   background: #fdfdfd;
   border: 1px solid #e1e1e1;
@@ -103,8 +106,12 @@ input::placeholder {
   left: 500px;
 }
 
+.bar_para {
+  display: flex;
+  gap: 81px;
+}
+
 .Textcontent {
-  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -112,31 +119,65 @@ input::placeholder {
   width: 50%;
 }
 
-.activies {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-items: flex-end;
-  width: 100%;
-  top: -1px;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 678px) {
   .search_Content {
-    position: absolute;
-    right: -2px;
-    top: 715px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 766px;
-    height: 88px;
+    width: 95%;
+    min-height: 88px;
     background: #304f47;
     border-radius: 8px;
-    gap: 25px;
+    gap: 44px;
+    left: 19px;
+    bottom: -31px;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 679px) {
+  .search_Content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    min-height: 88px;
+    background: #304f47;
+    border-radius: 8px;
+    gap: 44px;
+    left: 250px;
+    bottom: -31px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Textcontent {
+    width: 90%;
+  }
+
+  .hero_Title,
+  .hero_para {
+    font-size: 30px;
+    width: 100%;
+  }
+  .search_Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    min-height: 78px;
+    background: #304f47;
+    border-radius: 8px;
+    gap: 10px;
   }
 
   .inputcontent {
@@ -144,6 +185,7 @@ input::placeholder {
     max-width: 250px;
     margin: auto;
     height: 56px;
+    width: 100%;
     background: #fdfdfd;
     border: 1px solid #e1e1e1;
     border-radius: 8px;
@@ -154,5 +196,11 @@ input::placeholder {
     left: 233px;
     top: 35px;
     font-size: 20px;
+  }
+
+  .bar_para {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }

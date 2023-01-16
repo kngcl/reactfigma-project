@@ -13,13 +13,15 @@
 
 .menu {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .icons {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .menuChild {
@@ -28,7 +30,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 300%;
+  line-height: 50%;
   letter-spacing: 0.005em;
   color: #304f47;
   text-decoration: none;
@@ -43,4 +45,14 @@
   top: 120px;
   margin-top: 12px;
   border-bottom: 3px solid #304f47;
+}
+
+
+@media screen and (max-width:425px) {
+  .navbutton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+  }
 }

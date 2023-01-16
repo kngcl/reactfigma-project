@@ -12,15 +12,20 @@ export default function Footer() {
           <h1 className={Styles.Footer__title}>
             If you have any question, Let us help you!
           </h1>
-          <p className={Styles.Footer__sub_title}>
+          <div className={Styles.Footer__sub_title}>
             If you have any questions or would like to book a tour with us,
             please don't hesitate to contact us.
             <br />
             <br />
-            Phone: +250 788 123 456<br />
+            <div className={Styles.para1}>
+              Phone: +250 788 123 456<br />
              Email: info@rwandatourism.com<br />
               Address: Kigali, Rwanda
-          </p>
+            </div> 
+            <br />
+            <br />
+            
+          </div>
           <p className={Styles.Footer__sub_sub_title}>
             Subscribe to our newspaper
           </p>

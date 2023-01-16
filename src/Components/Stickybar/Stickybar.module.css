@@ -1,16 +1,14 @@
-*{
-  outline: 1px solid salmon;
-}
 .stick {
   background-color: #304f47;
-  min-height: 50px;
+  justify-content: space-between;
 }
 
 .stickContent {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  
+  justify-content: space-between;
+  padding:0 70px ;
+ 
 }
 
 .span1,
@@ -22,6 +20,7 @@
 
 .left {
   display: flex;
+
   flex-wrap: wrap;
   margin-top: 20px;
   gap: 30px;
@@ -35,6 +34,7 @@
 .right {
   display: flex;
   gap: 10px;
+
 }
 
 @media screen and (max-width: 425px) {
@@ -44,11 +44,18 @@
     flex-direction: column;
     max-width: 1100px;
     margin: auto;
+    padding: 0;
   }
 
   .stick {
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding: 0;
+  }
+
+  .right,
+  .left {
+    justify-content: center;
   }
 }

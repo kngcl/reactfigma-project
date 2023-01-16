@@ -9,23 +9,25 @@ function Navbar() {
         <div className={Style.Navbar__Menu} >
             <div className={Style.menuContent}>
             <div className={Style.icons}>
-            <img src={NavIcons} alt="Nav"  className={Style.vector}/>
+                <div>
+                <img src={NavIcons} alt="Nav"  className={Style.vector}/>
+                </div>
+           
            <div className= {Style.menu}>
             <p> <Link  className={Style.menuChild} to="/">Home</Link> </p>
             <p> <Link  className={Style.menuChild} to = "about">About</Link> </p>
-            <p> <a href="about" className={Style.menuChild}>Tour package</a> </p>
-            <p> <a href="about" className={Style.menuChild}>Gallery</a> </p>
-            <p> <a href="about" className={Style.menuChild}>Blog</a> </p>
-            <p> <a href="about" className={Style.menuChild}>Contact us</a> </p>
+            <p> <Link className={Style.menuChild} to = "package">Tour package</Link> </p>
+            <p> <Link  className={Style.menuChild} to = "gallery">Gallery</Link> </p>
+            <p> <Link  className={Style.menuChild} to = "contact">Contact us</Link> </p>
            </div>
             </div>
               
+         <div className={Style.navbutton}>
+         <Button>Sign In </Button>
+         </div>
          
-          <Button>Sign In </Button>
             </div>
-            
-
-           
+        
         </div>
     </div>
 }
