@@ -15,10 +15,10 @@ function Navbar() {
            
            <div className= {Style.menu}>
             <p> <Link  className={Style.menuChild} to="/">Home</Link> </p>
-            <p> <Link  className={Style.menuChild} to = "about">About</Link> </p>
-            <p> <Link className={Style.menuChild} to = "package">Tour package</Link> </p>
-            <p> <Link  className={Style.menuChild} to = "gallery">Gallery</Link> </p>
-            <p> <Link  className={Style.menuChild} to = "contact">Contact us</Link> </p>
+            <p> <Link  className={Style.menuChild} to = "/about">About</Link> </p>
+            <p> <Link className={Style.menuChild} to = "/package">Tour package</Link> </p>
+            <p> <Link  className={Style.menuChild} to = "/gallery">Gallery</Link> </p>
+            <p> <Link  className={Style.menuChild} to = "/contact">Contact us</Link> </p>
            </div>
             </div>
               
