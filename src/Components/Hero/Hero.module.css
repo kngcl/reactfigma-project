@@ -60,3 +60,7 @@
   letter-spacing: 0.005em;
   color: #c7923e;
 }
+
+@media screen  and (max-width:320px){
+
+}

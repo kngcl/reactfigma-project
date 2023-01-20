@@ -119,7 +119,7 @@ input::placeholder {
   width: 50%;
 }
 
-@media screen and (min-width: 678px) {
+@media screen and (width: 768px) {
   .search_Content {
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@ input::placeholder {
     position: absolute;
   }
 }
-@media screen and (min-width: 679px) {
+/* @media screen and (679px) {
   .search_Content {
     display: flex;
     flex-wrap: wrap;
@@ -150,7 +150,7 @@ input::placeholder {
     bottom: -31px;
     position: absolute;
   }
-}
+} */
 
 @media screen and (max-width: 425px) {
   .hero {
@@ -178,6 +178,7 @@ input::placeholder {
     background: #304f47;
     border-radius: 8px;
     gap: 10px;
+    margin-left: -137px;
   }
 
   .inputcontent {
