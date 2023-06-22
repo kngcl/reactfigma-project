@@ -1,15 +1,14 @@
 import React from 'react';
-import Buttons from '../../../Components/Button/Button';
+import Buttons from '../../../components/Buttons/Buttons';
 import './Address.css';
-import Network from '../../../Images/network.png';
-import Email from '../../../Images/email.png';
-import Phone from '../../../Images/phone.png';
-import Text from '../../../Images/text.png';
+import Network from '../../../asserts/images/network.png';
+import Email from '../../../asserts/images/ColorEmail.png';
+import Phone from '../../../asserts/images/ColorPhone.png';
 
 export default function Address() {
   return (
     <div className="address">
-      <div className="address__head">
+      <div className="address__heading">
         <h1>Get in Touch</h1>
         <p>
           We would love to hear from you! If you have any comments or
@@ -50,24 +49,36 @@ export default function Address() {
             placeholder="Write a message"
           />
         </div>
-        <Buttons>Submit</Buttons>
+        <Buttons content="sumit" />
       </form>
 
-      <div className="medias__main">
-        <div className="medias">
+      <div className="address__SocialMedias__container">
+        <div className="address__SocialMedia">
           <h2>Social media</h2>
           <img src={Network} alt="" />
         </div>
 
-        <div className="medias">
+        <div className="address__SocialMedia">
           <h2>Email & phone</h2>
-          <img src={Phone} alt="" />
-          <img src={Email} alt="" />
+          <p className="address__email__p marginTop">
+            <div className="address__email__container">
+              <img src={Phone} alt="" />
+              +250 784 688 641
+            </div>
+          </p>
+          <p className="address__email__p marginTop1">
+            <div className="address__email__container">
+              <img src={Email} alt="" />
+              bbonteemma@gmail.com
+            </div>
+          </p>
         </div>
 
-        <div className="medias">
+        <div className="address__SocialMedia">
           <h2>Address</h2>
-          <img src={Text} alt="" />
+          <p className="address__address__p">
+            kk 600 st <br /> Kigali, Rwanda
+          </p>
         </div>
       </div>
     </div>

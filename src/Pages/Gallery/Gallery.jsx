@@ -1,17 +1,16 @@
-import React from "react";
-import Footer from "../../Components/Footer/Footer";
-import Hero from "../../Components/Hero/Hero";
-import Navbar from "../../Components/Navbar/Navbar";
-import Stickybar from "../../Components/Stickybar/Stickybar";
-
-import Picture from "./Pictures/Picture";
+import React from 'react';
+import Hero3 from '../../components/Hero3/Hero3';
+import NavBar from '../../components/NavBar/NavBar';
+import StickyBar from '../../components/StickyBar/StickyBar';
+import Footer from '../Home/Footer/Footer';
+import Picture from './Pictures/Picture';
 
 export default function Gallery() {
   return (
     <div>
-      <Stickybar />
-      <Navbar />
-      <Hero Message="Tour Package" Message2="Home"  Message3="Tour Package" />
+      <StickyBar />
+      <NavBar />
+      <Hero3 data="Gallery" text="Gallery" />
       <Picture />
       <Footer />
     </div>

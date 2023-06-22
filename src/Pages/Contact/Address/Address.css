@@ -22,18 +22,18 @@ form h3 {
   font-size: 16px;
 }
 
-.address__head {
+.address__heading {
   margin-bottom: 25px;
 }
 
-.address__head h1 {
+.address__heading h1 {
   font-weight: 700;
   font-size: 62px;
   display: flex;
   justify-content: center;
 }
 
-.address__head p {
+.address__heading p {
   font-weight: 400;
   font-size: 24px;
   color: #515151;
@@ -73,7 +73,7 @@ form h3 {
 
 textarea {
   border: 1px solid #e1e1e1;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 8px;
   width: 90%;
   min-height: 120px;
@@ -82,7 +82,7 @@ textarea {
   padding-top: 20px;
 }
 
-.medias {
+.address__SocialMedia {
   background: #ffffff;
   border: 1px solid #304f4733;
   border-radius: 30px;
@@ -95,10 +95,35 @@ textarea {
   padding-left: 15px;
 }
 
-.medias__main {
+.address__SocialMedias__container {
   display: flex;
   margin: 70px 0;
   gap: 20px;
+}
+
+.address__email__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.address__address__p,
+.address__email__p {
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #304f47;
+}
+
+.marginTop {
+  margin-top: -1px;
+}
+
+.marginTop1 {
+  margin-top: 5;
 }
 
 @media screen and (max-width: 768px) {
@@ -117,18 +142,18 @@ textarea {
     padding-inline: 6px 10px;
   }
 
-  .medias__main {
+  .address__SocialMedias__container {
     flex-direction: column;
   }
 
-  .address__head p {
+  .address__heading p {
     text-align: center;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .address__head h1 {
+  .address__heading h1 {
     font-size: 42px;
   }
 }

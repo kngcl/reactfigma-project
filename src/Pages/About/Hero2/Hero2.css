@@ -1,8 +1,15 @@
-.monkey {
+.hero2__img1 {
   position: absolute;
   right: 0;
   z-index: -1;
   background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.hero2__img2 {
+  position: absolute;
+  right: 0;
+  margin-right: 200px;
+  margin-top: 38px;
 }
 
 .hero2 {
@@ -16,19 +23,24 @@
   max-width: 608px;
 }
 
-.hero2__choice {
+.hero2__container {
   display: flex;
   gap: 10vw;
-  padding: 0 10px;
+  padding: 0 20px;
   width: 69%;
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
   border-radius: 8px;
   border: 1px solid #0000001a;
+  margin-top: 50px;
 }
 
-.hero2__text {
+.hero2__container img {
+  margin-left: 10px;
+}
+
+.hero2__content {
   padding-left: 5vw;
   height: 900px;
 }
@@ -39,7 +51,7 @@
   color: #515151;
 }
 
-.hero2__choice button {
+.hero2__container button {
   height: 51px;
   background-color: #304f47;
   border: 1px solid #304f47;
@@ -67,7 +79,7 @@
     justify-content: center;
   }
 
-  .hero2__choice {
+  .hero2__container {
     width: 90%;
     flex-wrap: wrap;
     justify-content: center;
@@ -81,7 +93,7 @@
 }
 
 @media screen and (max-width: 768px) {
-.monkey {
+.hero2__img1 {
   filter: contrast(0.5);
 }
 }

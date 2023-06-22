@@ -1,23 +1,16 @@
-import React from "react";
-import Footer from "../../Components/Footer/Footer";
-import Stickybar from "../../Components/Stickybar/Stickybar";
-import AboutContent from "./AboutContent";
-import Hero2 from "./Hero2/Hero2"
-function About() {
-  /*  const navigate = useNavigate()
- const goAfter = () => {
-    setTimeout(() => {
-        navigate('/')
-    },5000)
- } */
+import React from 'react';
+import StickyBar from '../../components/StickyBar/StickyBar';
+import Footer from '../Home/Footer/Footer';
+import Hero2 from './Hero2/Hero2';
+import Safarri from './Safarri/Safarri';
+
+export default function About() {
   return (
     <div>
-      <Stickybar />
+      <StickyBar />
       <Hero2 />
-      <AboutContent />
-      <Footer/>
+      <Safarri />
+      <Footer />
     </div>
   );
 }
-
-export default About;

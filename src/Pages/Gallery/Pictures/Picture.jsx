@@ -1,63 +1,117 @@
 import React from 'react';
-import Pic1 from '../../../Images/folder/pic1.png';
-import Pic2 from '../../../Images/folder/pic2.png';
-import Pic3 from '../../../Images/folder/pic3.png';
-import Pic4 from '../../../Images/folder/pic4.png';
-import Pic5 from '../../../Images/folder/pic5.png';
-import Pic6 from '../../../Images/folder/pic6.png';
-import Pic7 from '../../../Images/folder/pic7.png';
-import Pic8 from '../../../Images/folder/pic8.png';
-import Pic9 from '../../../Images/folder/pic9.png';
-import Pic10 from '../../../Images/folder/pic10.png';
-import Pic11 from '../../../Images/folder/pic11.png';
-import Pic12 from '../../../Images/folder/pic12.png';
-import Pic13 from '../../../Images/folder/pic13.png';
-import Pic14 from '../../../Images/folder/pic14.png';
-import Pic15 from '../../../Images/folder/pic15.png';
-import Pic16 from '../../../Images/folder/pic16.png';
-import Pic17 from '../../../Images/folder/pic17.png';
-import Pic18 from '../../../Images/folder/pic18.png';
-import Pic19 from '../../../Images/folder/pic19.png';
-import Pic20 from '../../../Images/folder/pic20.png';
-import Pic21 from '../../../Images/folder/pic21.png';
-import Pic22 from '../../../Images/folder/pic22.png';
-import Pic23 from '../../../Images/folder/pic23.png';
-import Pic24 from '../../../Images/folder/pic24.png';
-import Buttons from '../../../Components/Button/Button';
+import Img1 from '../../../asserts/images/Gallery/Img1.png';
+import Img2 from '../../../asserts/images/Gallery/Img2.png';
+import Img3 from '../../../asserts/images/Gallery/Img3.png';
+import Img4 from '../../../asserts/images/Gallery/Img4.png';
+import Img5 from '../../../asserts/images/Gallery/Img5.png';
+import Img6 from '../../../asserts/images/Gallery/Img6.png';
+import Img7 from '../../../asserts/images/Gallery/Img7.png';
+import Img8 from '../../../asserts/images/Gallery/Img8.png';
+import Img9 from '../../../asserts/images/Gallery/Img9.png';
+import Img10 from '../../../asserts/images/Gallery/Img10.png';
+import Img11 from '../../../asserts/images/Gallery/Img11.png';
+import Img12 from '../../../asserts/images/Gallery/Img12.png';
+import Img13 from '../../../asserts/images/Gallery/Img13.png';
+import Img14 from '../../../asserts/images/Gallery/Img14.png';
+import Img15 from '../../../asserts/images/Gallery/Img15.png';
+import Img16 from '../../../asserts/images/Gallery/Img16.png';
+import Img17 from '../../../asserts/images/Gallery/Img17.png';
+import Img18 from '../../../asserts/images/Gallery/Img18.png';
+import Img19 from '../../../asserts/images/Gallery/Img19.png';
+import Img20 from '../../../asserts/images/Gallery/Img20.png';
+import Img21 from '../../../asserts/images/Gallery/Img21.png';
+import Img22 from '../../../asserts/images/Gallery/Img22.png';
+import Img23 from '../../../asserts/images/Gallery/Img23.png';
+import Img24 from '../../../asserts/images/Gallery/Img24.png';
+import Buttons from '../../../components/Buttons/Buttons';
 import './Picture.css';
 
-export default function Picture() {
+const test = [
+  {
+    src: Img1,
+  },
+  {
+    src: Img2,
+  },
+  {
+    src: Img3,
+  },
+  {
+    src: Img4,
+  },
+  {
+    src: Img5,
+  },
+  {
+    src: Img6,
+  },
+  {
+    src: Img7,
+  },
+  {
+    src: Img8,
+  },
+  {
+    src: Img9,
+  },
+  {
+    src: Img10,
+  },
+  {
+    src: Img11,
+  },
+  {
+    src: Img12,
+  },
+  {
+    src: Img13,
+  },
+  {
+    src: Img14,
+  },
+  {
+    src: Img15,
+  },
+  {
+    src: Img16,
+  },
+  {
+    src: Img17,
+  },
+  {
+    src: Img18,
+  },
+  {
+    src: Img19,
+  },
+  {
+    src: Img20,
+  },
+  {
+    src: Img21,
+  },
+  {
+    src: Img22,
+  },
+  {
+    src: Img23,
+  },
+  {
+    src: Img24,
+  },
+];
+
+export default function Imgture() {
   return (
     <div className="pictures">
       <div className="pictures__btn">
-        <Buttons>Open Instagram</Buttons>
+        <Buttons content="Open Instagram" />
       </div>
       <div className="pictures__content">
-        <div className="pictures__content__one">
-          <img src={Pic1} alt="afrique" className="pic" />
-          <img src={Pic2} alt="afrique" className="pic" />
-          <img src={Pic3} alt="afrique" className="pic" />
-          <img src={Pic4} alt="afrique" className="pic" />
-          <img src={Pic5} alt="afrique" className="pic" />
-          <img src={Pic6} alt="afrique" className="pic" />
-          <img src={Pic7} alt="afrique" className="pic" />
-          <img src={Pic8} alt="afrique" className="pic" />
-          <img src={Pic9} alt="afrique" className="pic" />
-          <img src={Pic10} alt="afrique" className="pic" />
-          <img src={Pic11} alt="afrique" className="pic" />
-          <img src={Pic12} alt="afrique" className="pic" />
-          <img src={Pic13} alt="afrique" className="pic" />
-          <img src={Pic14} alt="afrique" className="pic" />
-          <img src={Pic15} alt="afrique" className="pic" />
-          <img src={Pic16} alt="afrique" className="pic" />
-          <img src={Pic17} alt="afrique" className="pic" />
-          <img src={Pic18} alt="afrique" className="pic" />
-          <img src={Pic19} alt="afrique" className="pic" />
-          <img src={Pic20} alt="afrique" className="pic" />
-          <img src={Pic21} alt="afrique" className="pic" />
-          <img src={Pic22} alt="afrique" className="pic" />
-          <img src={Pic23} alt="afrique" className="pic" />
-          <img src={Pic24} alt="afrique" className="pic" />
+        <div className="pictures__content__container">
+          {test.map((data) => {
+            return <img src={data.src} alt="" className="pic" />;
+          })}
         </div>
       </div>
     </div>
